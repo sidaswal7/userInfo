@@ -5,10 +5,10 @@ import Userlist from "./components/Users/UserList";
 function App() {
   const [userDetails, setUserDetails] = useState([]);
 
-  const userDetailsHandler = (uName, uAge)=>{
+  const userDetailsHandler = (uName, uAge, uCollege)=>{
     setUserDetails((prevDetails)=>{
       return(
-        [...prevDetails,{name:uName,age:uAge, id:Math.random().toString()}]
+        [...prevDetails,{name:uName,age:uAge,college:uCollege, id:Math.random().toString()}]
       );
     })
   }

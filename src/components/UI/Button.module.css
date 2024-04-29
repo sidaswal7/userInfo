@@ -2,5 +2,6 @@
     background-color: #E4F118;
     border-radius: 5px;
     padding: 5px 10px;
-    color: red;
+    color: rgb(88, 15, 15);
+    box-shadow: 2px 1px 3px rgba(0, 0, 0,0.2);
 }
